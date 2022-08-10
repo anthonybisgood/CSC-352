@@ -1,0 +1,8 @@
+(1)
+find -name '*.py' && find -name '*.c' && find -name '*java'
+(2)
+cut -c 1-4 /usr/share/dict/words | sort | uniq | wc -w
+(3)
+ncal -y -j 2022 | grep Su | cut -c 8- | tr ' ' '\n'| sort -n | uniq -u
+(4)
+ls -o | cut -c 33-36 | uniq | sort

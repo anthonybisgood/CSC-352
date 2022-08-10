@@ -1,0 +1,3 @@
+Enter side A length:
+Enter side B length:
+Length of side C: 7.28
